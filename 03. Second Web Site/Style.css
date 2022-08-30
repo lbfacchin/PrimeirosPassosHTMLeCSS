@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+
+#header-top {
+    background-color: rgba(8, 26, 36, 1);
+    position: relative;
+    height: 50px;
+}
+
+.header-logo{
+    padding: 8px 0 0 180px;
+    
+}
+
+.header-nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 0;  
+    margin-right: 50px;  
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.header-nav li a{
+    color: rgb(113, 113, 113);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+    line-height: 50px;
+    box-sizing: border-box;
+}
+
+.portfolio {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.portfolio h1 {
+    color: rgba(32, 32, 32, 1);
+}
+
+.portfolio p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.gallery{
+    padding: 0 100px 50px 100px;
+}
+
+.card{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.gallery h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gallery p{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #003d52;
+    background-image: url(imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px;
+    color: white;
+    
+}
+
+.about p{
+    line-height: 2;
+    width: 70%;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#contact {
+    text-align: center;
+    text-transform: uppercase;
+    text-align: center;
+    counter-reset: #143f52;
+    padding: 50px 0 50px 0;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.rodape{
+    background-color: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: #6f8597;
+    margin-top: 10px;
+}

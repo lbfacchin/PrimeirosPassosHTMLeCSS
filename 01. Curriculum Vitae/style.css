@@ -1,0 +1,40 @@
+h1{
+    background-color: aliceblue;
+    color:coral;
+    text-align: center;
+    font-size: 46px;
+}
+
+body{
+    width: 80%;
+    margin:auto;
+    font-family: Verdana, helvetica, sans-serif;
+    color: #444;
+}
+
+h2{
+    background-color: red;
+    color: black;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    font-size: 36px;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    padding-left: 0;
+    
+}
+
+li{
+    padding-left: 0;
+    list-style-position: inside;
+}

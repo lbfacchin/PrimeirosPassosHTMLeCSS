@@ -1,0 +1,119 @@
+#hero {
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 3px #333;
+}
+
+.hero-content p{    
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0,0,0,.4);
+    border-bottom: 2px solid white;
+
+}
+
+#hero nav li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+#hero nav ul{
+    text-align: right;
+    padding: 20px 50px 0 0;
+}
+
+#hero nav a{
+    text-decoration: none;
+    color: white;
+    background-color:  rgba(0,0,0,.4);
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#hero nav a:hover {
+    background-color:  rgba(0,0,0,.6);
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+body{
+    background: #ccc;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.content-header{
+    background: #eee;
+    border-bottom: 2px solid black ;
+    padding: 10px;
+}
+
+.content-header h2{
+    margin: 0;
+}
+
+.rodape{
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+    background: #6b6c68;
+    line-height: 50px;
+}
+
+.card{
+    width: 32%;
+    
+    float: left;
+    box-sizing: border-box;
+    
+
+}
+
+.card p{
+    background-color: #393535;
+    padding: 15px;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.card-01, .card-02 {
+    margin-right: 2%;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
